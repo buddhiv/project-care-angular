@@ -1,0 +1,17 @@
+.navbar-height-50 {
+    height: 50px !important;
+    line-height: 50px;
+}
+
+.list-title{
+    font-size: 18px;
+}
+
+.blood-group-font{
+    font-style: normal;
+}
+
+.logo-icon{
+    font-size: 40px !important;
+    margin-top: -5px;
+}
