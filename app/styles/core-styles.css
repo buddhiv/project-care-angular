@@ -15,3 +15,20 @@
     font-size: 40px !important;
     margin-top: -5px;
 }
+.page-flexbox-wrapper{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
+
+}
+
+main{
+  flex: 1 1 auto;
+}
+.module{
+      overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
+}
+body{
+    -webkit-overflow-scrolling: touch;
+}
