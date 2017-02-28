@@ -2,16 +2,37 @@
 <div class="page-flexbox-wrapper">
     <header>
      <nav class="navbar-height-50">
-    <div class="nav-wrapper container">
-        <a href="#" class="brand-logo"><i class="material-icons logo-icon">polymer</i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li class="waves-effect waves-light"><a>Home</a></li>
-            <li class="waves-effect waves-light"><a>About</a></li>
-            <li class="waves-effect waves-light"><a>Find</a></li>
-            <li class="waves-effect waves-light"><a>Donate</a></li>
-            <li class="waves-effect waves-light"><a>Contact Us</a></li>
+     <ul id="slide-out" class="side-nav">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
-    </div>
+      </li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">First</a></li>
+        <li><a href="#!">Second</a></li>
+        <li><a href="#!">Third</a></li>
+        <li><a href="#!">Fourth</a></li>
+      </ul>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 </nav>
     </header>
     <main>
@@ -30,7 +51,7 @@
             No. of Units
         </sdiv>
     </div>
-
+        
     <div class="row">
         <div class="col l12 m12 s12">
             <div class="card-panel">

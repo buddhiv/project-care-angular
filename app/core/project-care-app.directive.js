@@ -17,7 +17,6 @@ function projectCareApp() {
 }
 
 careAppController.$inject = [];
-
 function careAppController() {
     var vm = this;
     vm.year = new Date().getFullYear();

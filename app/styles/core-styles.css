@@ -1,6 +1,7 @@
 .navbar-height-50 {
     height: 50px !important;
     line-height: 50px;
+    background-color: #f44336  !important;
 }
 
 .list-title{
@@ -25,10 +26,6 @@
 main{
   flex: 1 1 auto;
 }
-.module{
-      overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
-}
-body{
-    -webkit-overflow-scrolling: touch;
+.page-footer{
+     background-color: #f44336  !important;
 }
